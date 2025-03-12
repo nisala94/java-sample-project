@@ -9,6 +9,8 @@ class Veriables
         Veriables vr=new Veriables();
         System.out.println("This is a Instance Veriable="+vr.b);
         System.out.println("This is a Local Veriable="+c);
+        System.out.println("This is a Static Veriable="+Veriables.a);
+        
     }
 
 }
