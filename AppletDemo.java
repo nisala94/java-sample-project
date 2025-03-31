@@ -19,8 +19,13 @@ public class AppletDemo extends Applet
 
         Font f=new Font("arial",1,10);
         g.setFont(f);//add fonts
-        
+
         g.drawString("Welcome to Applet", 40, 40);
+
+        int x[]={200,250,280,290,200};
+        int y[]={100,250,280,290,300};
+        g.drawPolygon(x,y,5);
+        
 
     }
     
