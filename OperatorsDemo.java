@@ -85,6 +85,16 @@ public class OperatorsDemo {
 
         System.out.println(d);
 
+        int age=10;
+        int base_age=18;
+        String str="Eligibal";
+        String str2="Not Eligibal";
+
+        String fin = (age>=base_age)? str:str2;
+        System.out.println(fin);
+
+
+
 
 
 
