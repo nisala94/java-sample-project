@@ -60,6 +60,18 @@ public class WhileLoopdemo {
             System.out.println(e);
             e--;
         }
+
+        //ex-06 while loop without knowing the condtion
+        int f=1;
+        while (true) {
+            System.out.println("Hello one");
+            f++;
+            
+            if(f==10)
+            {
+                break;
+            }
+        }
         
 
     }
