@@ -1,10 +1,10 @@
 public class ArrayExamples {
 
     public static void main(String[] args) {
-        
+        //ex-01
          //prrnt even and odd numbers from an array
 
-         int f[]={1,2,3,4,5,6,7,8,9,10};
+         int f[]={1,2,3,4,5,6,7,8,9,10,2,2};
         
          int even_no=0;
          int odd_no=0;
@@ -26,6 +26,7 @@ public class ArrayExamples {
          }
 
          //print sum of the elements
+            //ex-02
 
          int sum=0;
          for(int a=0;a<f.length;a++)
@@ -34,6 +35,53 @@ public class ArrayExamples {
 
          }
         System.out.println(sum);
+
+        // ex-03
+        //  serach an element from an array(linear search)
+
+        int searched_value=100;
+        boolean status=false;
+        for (int t=0;t<f.length;t++)
+        {
+            if(f[t]==searched_value){
+
+                System.out.println("Searched value "+searched_value+ " Found in the array");
+                status =true;
+                break;
+            }
+
+           
+        }
+
+        if(status==false){
+
+            System.out.println("Searched value "+searched_value+ " Not found in the array");
+       }
+
+
+       //find repeted elements in array
+
+       int searched_value1=2;
+        boolean status1=false;
+        int repeated_time=0;
+        for (int p=0;p<f.length;p++)
+        {
+            if(f[p]==searched_value1){
+
+                repeated_time++;
+              
+            }
+
+           
+        }
+
+        System.out.println("THis is repeated "+repeated_time+ " times in the array");
+
+       
+
     }
     
+
+
+
 }
