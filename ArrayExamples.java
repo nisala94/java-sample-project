@@ -8,24 +8,24 @@ public class ArrayExamples {
 
          int f[]={1,2,3,11,5,6,7,8,9,10,2,2};
         
-    //      int even_no=0;
-    //      int odd_no=0;
-    //      for(int i=0;i<f.length;i++){
+         int even_no=0;
+         int odd_no=0;
+         for(int i=0;i<f.length;i++){
  
-    //          if(f[i]%2==0){
+             if(f[i]%2==0){
  
-    //              System.out.println("This is a even number from the array "+f[i]);
-    //              even_no++;
-    //          }else{
+                 System.out.println("This is a even number from the array "+f[i]);
+                 even_no++;
+             }else{
  
-    //              System.out.println("This is a odd number from the array "+f[i]);
-    //              odd_no++;
-    //          }
+                 System.out.println("This is a odd number from the array "+f[i]);
+                 odd_no++;
+             }
 
-    //          System.out.println("Number of even numbers "+even_no);
-    //          System.out.println("Number of Odd numbers "+odd_no);
+             System.out.println("Number of even numbers "+even_no);
+             System.out.println("Number of Odd numbers "+odd_no);
              
-    //      }
+         }
 
     //      //print sum of the elements
     //         //ex-02
@@ -82,36 +82,36 @@ public class ArrayExamples {
 
         //Sorting 
 
-        for(int h:f)
-        {
-            System.out.println(h);
-        }
+        // for(int h:f)
+        // {
+        //     System.out.println(h);
+        // }
 
-        //can use without using loop a pre define method only for printing
+        // //can use without using loop a pre define method only for printing
 
-        System.out.println(Arrays.toString(f));  
+        // System.out.println(Arrays.toString(f));  
 
-        Arrays.sort(f);
-        System.out.println("After sorting...............");
-        System.out.println(Arrays.toString(f));
+        // Arrays.sort(f);
+        // System.out.println("After sorting...............");
+        // System.out.println(Arrays.toString(f));
 
-        //Sorting stirngs Array
+        // //Sorting stirngs Array
 
-        String y[]={"DEF","CAF","ABC","EMN"};
+        // String y[]={"DEF","CAF","ABC","EMN"};
 
-        System.out.println("Before sorting---"+Arrays.toString(y));
-        Arrays.sort(y);
-        System.out.println("AFter sorting---"+Arrays.toString(y));
+        // System.out.println("Before sorting---"+Arrays.toString(y));
+        // Arrays.sort(y);
+        // System.out.println("AFter sorting---"+Arrays.toString(y));
 
 
-        //reverse an array
+        // //reverse an array
 
-        int r[]={1,2,3,11,5,6,7,8,9,10,2,2};
+        // int r[]={1,2,3,11,5,6,7,8,9,10,2,2};
 
-        for(int k=r.length-1;k>=0;k--)
-        {
-            System.out.println(r[k]);
-        }
+        // for(int k=r.length-1;k>=0;k--)
+        // {
+        //     System.out.println(r[k]);
+        // }
 
 
 
