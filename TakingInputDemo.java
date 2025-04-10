@@ -17,6 +17,7 @@ public class TakingInputDemo {
         System.out.println("Please enter your name:");
         String name=sc.next();
         System.out.println(name);
+    
 
         //unknow value
         System.out.println("Please enter any value:");
